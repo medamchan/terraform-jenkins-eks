@@ -2,4 +2,4 @@ region          = "us-east-1"
 vpc_cidr        = "192.168.0.0/16"
 private_subnets = ["192.168.1.0/24", "192.168.2.0/24", "192.168.3.0/24"]
 public_subnets  = ["192.168.4.0/24", "192.168.5.0/24", "192.168.6.0/24"]
-instance_types  = ["t3.micro"]
+instance_types  = ["c7i-flex.large"]
